@@ -12,6 +12,7 @@ This is a checklist of what every lead should know/have access to for every Pyth
 * Add as attendee for Google Calendar events
 * Add to Trello
 * Make an organizer on Meetup
+* Add to this repo's team
 
 ### Publicity
 Announce on:
