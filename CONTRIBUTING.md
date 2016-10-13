@@ -1,8 +1,9 @@
 #How to Contribute to This Repository
 
-##Branch First
+##Fork & Clone First
 _note:_ If you have write permissions to this repo, no need to fork to your own GitHub account if you haven't already. Just clone this repository directly.
 
+##Branch Second
 **The Best Way:** 
   1.  On your local version of this repository, make a branch that's named something relevant to what you are doing (ex: `add-contributing-doc`).
   2.  Add and/or change files as needed. As most of these are going to be markdown (`.md`) files, there are some helpful resources about markdown syntax [here](https://daringfireball.net/projects/markdown/syntax), [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), and [here](https://guides.github.com/features/mastering-markdown/).
