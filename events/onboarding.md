@@ -1,18 +1,19 @@
 # Python Lab Lead Onboarding
 This is a checklist of what every lead should know/have access to for every Python Lab event.
 ### Access
-* Slack - Make an admin; grant access to the following channels
- * All Leads
- * Study Group Leads
- * Python Leads
- * Hosts
-* Google Drive
-* WWCDC email: wwcodedc@gmail.com
-* Welcome email to hosts for logistics
-* Add as attendee for Google Calendar events
-* Add to Trello
-* Make an organizer on Meetup
-* Add to this repo's team
+* First
+ * Slack - grant access to the following channels
+  * All Leads
+  * Language Leads
+  * Python Leads
+  * Hosts
+*Later, once committment is made:
+ * Google Drive
+ * WWCDC email: wwcodedc@gmail.com
+ * Welcome email to hosts for logistics
+ * Add as attendee for Google Calendar events
+ * Make an organizer on Meetup
+ * Add to this repo's team
 
 ### Publicity
 Announce on:
