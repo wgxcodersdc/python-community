@@ -7,9 +7,9 @@ This is a checklist of what every lead should know/have access to for every Pyth
   * Language Leads
   * Python Leads
   * Hosts
-*Later, once committment is made:
+* Later, once committment is made:
+ * Make admin on Slack
  * Google Drive
- * WWCDC email: wwcodedc@gmail.com
  * Welcome email to hosts for logistics
  * Add as attendee for Google Calendar events
  * Make an organizer on Meetup
