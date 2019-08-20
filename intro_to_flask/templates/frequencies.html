@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paragraph Frequency Calculator</title>
+	</head>
+	<body>
+		<h1>Paragraph Frequency Calculator</h1>
+		<p>Submit a paragraph to get a json response that returns the words with their frequencies.</p>
+		</br>
+
+		<form method="POST">
+			{# {{ form.hidden_tag() }} #}
+			<label for="input_string">Input String:</label>
+			</br>
+			<textarea id="input_string" name="input_string" rows=10 cols=50></textarea>
+			</br>
+			</br>
+			<label for="ignore_case">Ignore Case:</label>
+			<input type="checkbox" id="ignore_case" name="ignore_case">
+			</br>
+			</br>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>

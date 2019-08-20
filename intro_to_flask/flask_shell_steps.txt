@@ -1,0 +1,44 @@
+# ----------------------
+# let's make a sqlite db
+# -----------------------
+# run these commands in the terminal. 
+# will make a database called database/data.sqlite 
+FLASK_APP=tutorial_4 flask shell
+
+# now you are in the flask shell that starts with >>>
+from tutorial_4 import db, Department, Employee
+
+db.create_all()
+
+# now let's add some data
+hr = Department(name='HR')
+db.session.add(hr)
+
+it = Department(name='IT')
+db.session.add(it)
+
+db.session.commit()
+
+# and a few employees
+jane_doe = Employee(first_name='Jane', last_name='Doe', department=it)
+sue_smitt = Employee(first_name='Sue', last_name='Smitt', department=hr)
+maria_ortez = Employee(first_name='Maria', last_name='Ortez', department=it)
+siew_sun = Employee(first_name='Siew', last_name='Sun', department=it)
+db.session.add_all([jane_doe, sue_smitt, maria_ortez, siew_sun])
+db.session.commit()
+
+# we can query our new database tables
+>>> Department.query.all()
+[<Dept 'HR'>, <Dept 'IT'>]
+>>> for emp in Employee.query.all(): print(emp.department)
+... 
+<Dept 'IT'>
+<Dept 'HR'>
+<Dept 'IT'>
+<Dept 'IT'>
+>>> for d in Department.query.all(): print(d.employees)
+... 
+[<Employee 'Sue' 'Smitt'>]
+[<Employee 'Jane' 'Doe'>, <Employee 'Maria' 'Ortez'>, <Employee 'Siew' 'Sun'>]
+
+>>> exit()

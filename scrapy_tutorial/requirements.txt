@@ -1,0 +1,8 @@
+Scrapy==1.7.3
+beautifulsoup4
+python-dateutil
+
+# optional section
+# if you have docker installed, run `docker run -p 8050:8050 scrapinghub/splash` in another terminal
+# and then install:
+scrapy-splash

@@ -1,0 +1,8 @@
+# python files
+*.pyc
+
+.idea/
+
+# virtual env
+flask_venv/
+scrapy_env/
