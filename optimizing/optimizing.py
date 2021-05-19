@@ -20,13 +20,14 @@ def fib(x):
     else:
         fib_arr = [0, 1]
         s = "0, 1"
-        for i in range(2, x + 1):
+        for i in range(2, x):
             fib_arr.append(fib_arr[i-1] + fib_arr[i - 2])
             s += ', ' + str(fib_arr[i-1] + fib_arr[i - 2])
-    # print(s)
+    print(s)
     return fib_arr[-1]
 
 @profiler
+@lru_cache(maxsize=12)
 def fib_fast(x):
     """ Prints the fibonacci series up to the x'th fibonacci number"""
     if x <= 1:
@@ -34,16 +35,16 @@ def fib_fast(x):
     else:
         fib_arr = [0, 1]
         s = "0, 1"
-        for i in range(2, x + 1):
+        for i in range(2, x):
             fib_arr.append(fib_arr[i-1] + fib_arr[i - 2])
-    # print(''.join(map(str,fib_arr)))
+    print(', '.join(map(str,fib_arr)))
     ''.join(map(str,fib_arr))
     return fib_arr[-1]
 
 if __name__ == "__main__":
     print('{0:<10} {1:<8} {2:^8}'.format('module', 'function', 'time'))
     x = 5
-    fib(x)
+    fib(x) # 0, 1, 1, 2, 3
     x = 20
     fib(x)
     x = 100
