@@ -6,3 +6,6 @@
 # virtual env
 flask_venv/
 scrapy_env/
+
+# Ignore Mac DS_Store files
+.DS_Store
