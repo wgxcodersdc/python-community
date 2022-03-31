@@ -1,6 +1,9 @@
 # python files
 *.pyc
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 .idea/
 
 # virtual env
