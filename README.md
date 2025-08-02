@@ -1,16 +1,16 @@
 # Python study group!
+*This repo is preserved in case this subgroup is revived - Aug 2025*
 
 ## Participating
 
-### Who is this study group for?
-
-WomenWhoCode programs are intended for all women (trans and cis), trans men, and genderqueer folks.
+### Empowering Women and Non-binary Voices
+Women and Gender eXpansive Coders DC events are primarily intended to create an empowering and supportive space for women and non-binary individuals to find community, learn new technical concepts, and expand their coding and technical skills. We welcome allies, but we ask that they remain mindful of the events’ focus in creating an inclusive environment where women and non-binary participants can connect and fully express themselves.
 
 ### What is this study group for?
 
-The WWC Python study group is a space where women can come together and help each other learn and understand software development with Python development. We welcome devs of all levels and encourage those with more experience to help out those that are just starting. There's always at least one mentor/leader present to help you with best practices or to guide you through if you are stuck with a nasty problem!
+The WGXC Python study group is a space where women can come together and help each other learn and understand software development with Python development. We welcome devs of all levels and encourage those with more experience to help out those that are just starting. There's always at least one mentor/leader present to help you with best practices or to guide you through if you are stuck with a nasty problem!
 
-All study groups are scheduled via our [Meetup](http://www.meetup.com/Women-Who-Code-DC/) page. We meet every Thursday 06:30-08:30 pm. Every study group will have the following format:
+All study groups are scheduled via our [Meetup](women-and-gender-expansive-coders-dc-wgxc-dc/) page. We meet every Thursday 06:30-08:30 pm. Every study group will have the following format:
 
 * 6:15 - 6:40pm - Networking and getting to know each other
 * 6:40 - 6:50pm - Quick Introductions
@@ -38,7 +38,7 @@ Leads are present to facilitate the study group. They help find hosts, schedule 
 
 ### Can I be a lead?
 
-YES! We are always looking for more leads and if you're interested in getting involved in Women Who Code in any capacity talk to one of the leads present!
+YES! We are always looking for more leads and if you're interested in getting involved in WGXC DC in any capacity talk to one of the leads present!
 
 ### How can I contribute without being a lead?
 
@@ -48,7 +48,7 @@ There are lots of ways to contribute! We especially need help coordinating event
 
 ### Slack
 
-The WWC-DC community uses Slack to keep in touch, share resources, and chat about all things tech. You can use Slack to ask troubleshooting questions or general questions about coding (in any language) and the tech industry. We encourge you to sign up here:  http://bitly.com/womenwhocodedcslack (and read our guide if you need more help - http://bit.ly/slackguide)
+The WGXC DC community uses Slack to keep in touch, share resources, and chat about all things tech. You can use Slack to ask troubleshooting questions or general questions about coding (in any language) and the tech industry. We encourge you to [sign up here](https://forms.gle/p6KYBpxSMoq3CvQU8) and [read our Slack guide if you need more help.](http://bit.ly/slackguide)
 
 ## Logistics
 

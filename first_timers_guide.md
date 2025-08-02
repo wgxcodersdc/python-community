@@ -1,4 +1,4 @@
-# WWCDC Python Study Group first timer's guide
+# WGXCDC Python Study Group first timer's guide
 
 If you are brand new to Python, we recommend coming to the first meeting of the month which is First-Timers Night. You are welcome to come any week, but that first Thursday will always cater to beginners.
 

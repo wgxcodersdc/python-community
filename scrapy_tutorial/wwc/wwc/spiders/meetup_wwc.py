@@ -5,12 +5,12 @@
 import scrapy
 
 
-class MeetupWwcSpider(scrapy.Spider):
+class MeetupWGXCSpider(scrapy.Spider):
     """
     Scraper to fetch the Upcoming Events from the start url
     and save the data to a file
     """
-    name = 'meetup_wwc'
+    name = 'meetup_WGXC'
 
     allowed_domains = ['meetup.com']
 

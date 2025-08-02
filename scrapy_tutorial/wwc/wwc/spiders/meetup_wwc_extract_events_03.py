@@ -9,12 +9,12 @@ from bs4 import BeautifulSoup
 import scrapy
 
 
-class MeetupWwcSpiderExtractEvents(scrapy.Spider):
+class MeetupWGXCSpiderExtractEvents(scrapy.Spider):
     """
     Scraper that fetches the start urls to get the list
     of events on the main page
     """
-    name = 'meetup_wwc_extract_events'
+    name = 'meetup_WGXC_extract_events'
 
     allowed_domains = ['meetup.com']
 

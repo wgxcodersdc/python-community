@@ -1,7 +1,7 @@
 Add your 
 1. Name
 2. Github url
-3. Slack handle on Women Who Code Slack
+3. Slack handle on WGXC DC Slack
 
 ------------------------------------------------------
 
@@ -12,7 +12,7 @@ Slack: @Brianna
 
 Neha Tiwari
 www.github.com/nt03
-WWC Slack handle: @Neha
+WGXC Slack handle: @Neha
 -------------------------------------------------------
 
 

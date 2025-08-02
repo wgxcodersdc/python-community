@@ -12,14 +12,14 @@ At a minimum a spider needs the following:
 import scrapy
 
 
-class MeetupWwcSpiderEmpty(scrapy.Spider):
+class MeetupWGXCSpiderEmpty(scrapy.Spider):
     """
     The most basic scraper. It will fetch the
     start_url, but won't do anything with the response.
     """
 
     # Unique name for using the spider on the command line
-    name = 'meetup_wwc_empty'
+    name = 'meetup_WGXC_empty'
 
     # domains that the spider is allowed to visit
     allowed_domains = ['meetup.com']
