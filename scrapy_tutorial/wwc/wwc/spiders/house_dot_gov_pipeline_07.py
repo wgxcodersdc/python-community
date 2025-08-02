@@ -39,8 +39,8 @@ class HouseDotGovPipelineScraper(scrapy.Spider):
     # so we define it like this instead of in settings.py
     custom_settings = {
         'ITEM_PIPELINES': {
-            'wwc.pipelines.HouseDotGovDupesPipeline': 100,
-            'wwc.pipelines.HouseDotGovDemsOnlyPipeline': 500,
+            'WGXC.pipelines.HouseDotGovDupesPipeline': 100,
+            'WGXC.pipelines.HouseDotGovDemsOnlyPipeline': 500,
         }
     }
 

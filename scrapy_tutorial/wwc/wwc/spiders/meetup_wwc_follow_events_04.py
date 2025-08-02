@@ -7,7 +7,7 @@ Do the following:
 2. follow the link for each event to get some more information
 3. run this spider like so to get an output file in json:
 
-    scrapy crawl meetup_wwc_follow_events -o event_data.json
+    scrapy crawl meetup_WGXC_follow_events -o event_data.json
 
 If we want to use scrapy shell to explore a response:
 
@@ -23,13 +23,13 @@ from bs4 import BeautifulSoup
 import scrapy
 
 
-class MeetupWwcSpiderFollowEvents(scrapy.Spider):
+class MeetupWGXCSpiderFollowEvents(scrapy.Spider):
     """
     Scraper that fetches the start urls to get the list
     of events on the main page, then follows the event
     urls to get more information about each event
     """
-    name = 'meetup_wwc_follow_events'
+    name = 'meetup_WGXC_follow_events'
 
     allowed_domains = ['meetup.com']
 

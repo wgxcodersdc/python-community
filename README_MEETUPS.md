@@ -1,6 +1,6 @@
-## WWCDC_PYTHON
+## WGXCDC_PYTHON
 
-### Hiya! Welcome to our Github repo. In here you will find Women Who Code DC Python Chapter Powerpoints and Materials from past Meetups.
+### Hiya! Welcome to our Github repo. In here you will find WGXC DC DC Python Chapter Powerpoints and Materials from past Meetups.
 
 #### If you are a beginner, please look out for our meetups [here](https://www.meetup.com/Women-Who-Code-DC/) , we host them every other First Wednesday of the Month!
 
@@ -30,4 +30,3 @@
  + Object Oriented Programming
  + APIs
  
- If you have any questions  <A HREF="mailto:monicapuerto@womenwhocode.com">Email me, Monica : A Director of the DC Chapter!</A>

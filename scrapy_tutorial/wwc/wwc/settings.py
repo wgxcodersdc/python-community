@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for wwc project
+# Scrapy settings for WGXC project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'wwc'
+BOT_NAME = 'WGXC'
 
-SPIDER_MODULES = ['wwc.spiders']
-NEWSPIDER_MODULE = 'wwc.spiders'
+SPIDER_MODULES = ['WGXC.spiders']
+NEWSPIDER_MODULE = 'WGXC.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'wwc (+http://www.yourdomain.com)'
+#USER_AGENT = 'WGXC (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'wwc.middlewares.WwcCompleteSpiderMiddleware': 543,
+#    'WGXC.middlewares.WGXCCompleteSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'wwc.middlewares.WwcCompleteDownloaderMiddleware': 543,
+#    'WGXC.middlewares.WGXCCompleteDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'wwc.pipelines.WwcCompletePipeline': 300,
+#    'WGXC.pipelines.WGXCCompletePipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

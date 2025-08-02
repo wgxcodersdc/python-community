@@ -1,4 +1,4 @@
-# Women Who Code Python Lab
+# WGXC DC Python Lab
 # Python Lists and Dictonaries
 
 # -----------------------------------------------------------------------

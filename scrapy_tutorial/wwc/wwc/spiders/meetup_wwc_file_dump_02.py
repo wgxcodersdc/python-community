@@ -1,13 +1,13 @@
 import scrapy
 
 
-class MeetupWwcSpiderFileDump(scrapy.Spider):
+class MeetupWGXCSpiderFileDump(scrapy.Spider):
     """
     Scraper that fetches the start_urls and
     prints the raw response to a file called
-    "wwc_spider_file_dump.html"
+    "WGXC_spider_file_dump.html"
     """
-    name = 'meetup_wwc_file_dump'
+    name = 'meetup_WGXC_file_dump'
 
     allowed_domains = ['meetup.com']
 
@@ -21,7 +21,7 @@ class MeetupWwcSpiderFileDump(scrapy.Spider):
         :param response: the html response fetched by scrapy
         :return: nothing
         """
-        filename = 'wwc_spider_file_dump.html'
+        filename = 'WGXC_spider_file_dump.html'
         with open(filename, 'wb') as f:
             f.write(response.body)
 

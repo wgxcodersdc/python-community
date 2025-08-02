@@ -35,7 +35,7 @@ lua_script = """function main(splash, args)
 end"""
 
 
-class MeetupWwcSpiderAttendeesSplash(scrapy.Spider):
+class MeetupWGXCSpiderAttendeesSplash(scrapy.Spider):
     """
     Scraper that scrapes for all the attendees at a meetup
 

@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 import scrapy
 
 
-class MeetupWwcSpiderAttendeesBroken(scrapy.Spider):
+class MeetupWGXCSpiderAttendeesBroken(scrapy.Spider):
     """
     Scraper that scrapes for all the attendees at a meetup
     """
